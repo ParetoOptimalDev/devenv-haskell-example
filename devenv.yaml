@@ -1,3 +1,6 @@
 inputs:
   nixpkgs:
     url: github:NixOS/nixpkgs/nixpkgs-unstable
+  amazonka:
+    url: https://github.com/brendanhay/amazonka/archive/31f3d044d84912b99e396a97085a9678e699d91f.tar.gz
+    flake: false

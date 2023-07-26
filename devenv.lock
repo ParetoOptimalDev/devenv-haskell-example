@@ -1,5 +1,17 @@
 {
   "nodes": {
+    "amazonka": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-nRCGEFYwk1VNl18+9c7FCt0FhPeZVOKrgM8EuqBr7to=",
+        "type": "tarball",
+        "url": "https://github.com/brendanhay/amazonka/archive/31f3d044d84912b99e396a97085a9678e699d91f.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/brendanhay/amazonka/archive/31f3d044d84912b99e396a97085a9678e699d91f.tar.gz"
+      }
+    },
     "devenv": {
       "locked": {
         "dir": "src/modules",
@@ -130,6 +142,7 @@
     },
     "root": {
       "inputs": {
+        "amazonka": "amazonka",
         "devenv": "devenv",
         "nixpkgs": "nixpkgs",
         "pre-commit-hooks": "pre-commit-hooks"
